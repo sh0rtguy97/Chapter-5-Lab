@@ -21,10 +21,10 @@ public class Lab05Est
         
         int ticket = 0;
         
-        if(limit1<=travel1){
+        if(limit1<travel1){
             ticket = 75 + 6*(travel1 - limit1);
                 
-            if(travel1 - limit1>=30){
+            if(travel1 - limit1>30){
                 ticket = ticket + 160;
             }
             
